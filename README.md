@@ -32,7 +32,7 @@ sudo apt-get install vim
 sudo add-apt-repository ppa:webupd8team/atom
 sudo apt update; sudo apt install atom
 ```
-To remove Atom text editor:
+- To remove Atom text editor:
 ```
 sudo apt remove --purge atom
 ```
@@ -46,34 +46,34 @@ nvm install --lts
 ```
 
 ### mongoDB
-install:
+- install:
 ```
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5
 echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list
 sudo apt-get update
 sudo apt-get install -y mongodb-org
 ```
-Run MongoDB:  
+- Run MongoDB:  
 The MongoDB instance stores its data files in <b>/var/lib/mongodb</b> and its log files in <b>/var/log/mongodb</b> by default, and runs using the mongodb user account. You can specify alternate log and data file directories in <b>/etc/mongod.conf</b>.  
 
-Start MongoDB:
+- Start MongoDB:
 ```
 sudo service mongod start
 ```
-Verify that MongoDB has started successfully:  
+- Verify that MongoDB has started successfully:  
 by checking the contents of the log file at <b>/var/log/mongodb/mongod.log</b> for a line reading
 ```
 [initandlisten] waiting for connections on port 27017
 ```
-stop:
+- stop:
 ```
 sudo service mongod stop
 ```
-restart:
+- restart:
 ```
 sudo service mongod restart
 ```
-Begin using MongoDB:
+- Begin using MongoDB:
 ```
 mongo --host 127.0.0.1:27017
 ```
