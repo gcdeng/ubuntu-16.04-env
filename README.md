@@ -36,6 +36,19 @@ sudo apt update; sudo apt install atom
 ```
 sudo apt remove --purge atom
 ```
+- packages:
+1. file icons
+```
+apm install file-icons
+```
+2. minimap
+```
+apm install minimap
+```
+3. linter-eslint
+```
+apm install linter-eslint
+```
 
 ### nvm & node
 ```
