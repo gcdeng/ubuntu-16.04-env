@@ -12,6 +12,11 @@ git config --global user.email ericdenggc@gmail.com
 git config --global core.editor vim
 ```
 
+### vim
+```
+sudo apt-get install vim
+```
+
 ### oh-my-zsh
 ```
 sudo apt-get install zsh -y
@@ -20,11 +25,6 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 ```
 - Test that it worked with ```echo $SHELL```. Expected result: ```/bin/zsh``` or similar.
 - change the theme by edit the ```~/.zshrc``` file and ```source ~/.zshrc```
-
-### vim
-```
-sudo apt-get install vim
-```
 
 ### atom
 ```
