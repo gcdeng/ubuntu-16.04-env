@@ -14,7 +14,7 @@ git config --global core.editor vim
 
 ### oh-my-zsh
 ```
-sudo apt-get install zsh
+sudo apt-get install zsh -y
 chsh -s $(which zsh)
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 ```
