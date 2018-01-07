@@ -96,3 +96,17 @@ mongo --host 127.0.0.1:27017
 
 ### 中文輸入
 [Ubuntu 16.0.4新增中文輸入法-新酷音輸入法](http://blog.xuite.net/yh96301/blog/342227672-Ubuntu+16.0.4%E6%96%B0%E5%A2%9E%E4%B8%AD%E6%96%87%E8%BC%B8%E5%85%A5%E6%B3%95-%E6%96%B0%E9%85%B7%E9%9F%B3%E8%BC%B8%E5%85%A5%E6%B3%95)
+
+### Tmux
+```
+sudo apt-get install tmux
+```
+- reload:
+This can be done either from within tmux, by pressing Ctrl+B and then : to bring up a command prompt, and typing:
+```
+:source-file ~/.tmux.conf
+```
+Or simply from a shell:
+```
+$ tmux source-file ~/.tmux.conf
+```
