@@ -1,8 +1,7 @@
 # ubuntu-16.04-env
 
 ```
-sudo apt-get upgrade
-sudo apt-get update
+sudo apt-get update && sudo apt-get upgrade && sudo apt-get -y dist-upgrade
 ```
 
 ### git
