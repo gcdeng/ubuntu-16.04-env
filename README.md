@@ -63,6 +63,11 @@ config.json in ~\.quokka
 On windows:  
 config.json in C:\Users\XXX\.quokka  
 
+5. indent-guide-improved
+```
+atom install indent-guide-improved
+```
+
 ### nvm & node
 - download
 ```
