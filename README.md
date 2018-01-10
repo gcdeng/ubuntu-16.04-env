@@ -11,6 +11,12 @@ git config --global user.name "gcdeng"
 git config --global user.email ericdenggc@gmail.com
 git config --global core.editor vim
 ```
+- git has file permissions modes issue in case of share files between linux and windows via Samba  
+solve it by following command:
+```
+git config core.filemode false
+```  
+ref: [How do I remove files saying “old mode 100755 new mode 100644” from unstaged changes in Git?](https://stackoverflow.com/questions/1257592/how-do-i-remove-files-saying-old-mode-100755-new-mode-100644-from-unstaged-cha)
 
 ### vim
 ```
