@@ -58,10 +58,10 @@ specify the path to the node executable in your global quokka config.json file, 
     "node": "/Users/username/.nvm/versions/node/v7.7.1/bin/node"
 }
 ```  
-On Mac/Linux:
-config.json in ~\.quokka
+On Mac/Linux:  
+config.json in ~\.quokka  
 On windows:  
-config.json in C:\Users\XXX\.quokka
+config.json in C:\Users\XXX\.quokka  
 
 ### nvm & node
 - download
@@ -85,7 +85,7 @@ nvm install --lts
 npm install -g eslint
 ```
 
-### mongoDB
+### MongoDB
 - install:
 ```
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5
