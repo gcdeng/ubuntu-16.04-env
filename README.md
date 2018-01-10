@@ -48,6 +48,20 @@ apm install minimap
 ```
 apm install linter-eslint
 ```
+4. quokka
+```
+apm install atom-quokka
+```
+specify the path to the node executable in your global quokka config.json file, for example:
+```
+{
+    "node": "/Users/username/.nvm/versions/node/v7.7.1/bin/node"
+}
+```  
+On Mac/Linux:
+config.json in ~\.quokka
+On windows:  
+config.json in C:\Users\XXX\.quokka
 
 ### nvm & node
 - download
@@ -119,4 +133,13 @@ This can be done either from within tmux, by pressing Ctrl+B and then : to bring
 Or simply from a shell:
 ```
 $ tmux source-file ~/.tmux.conf
+```
+- look sessions
+```
+$ tmux ls
+```
+- detach and attach session
+```
+$ ctrl+A d
+$ tmux attach -t [session number]
 ```
