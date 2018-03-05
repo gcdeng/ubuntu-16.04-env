@@ -154,3 +154,21 @@ $ tmux ls
 $ ctrl+A d
 $ tmux attach -t [session number]
 ```
+
+### Samba
+- Start
+```
+sudo service smbd start
+```
+- Stop
+```
+sudo service smbd stop
+```
+- Restart
+```
+sudo service smbd restart
+```
+- Status
+```
+service smbd status
+```
